@@ -3,6 +3,8 @@ package org.Temirjohn.Online_Payment_Gateway.transaction;
 import java.util.ArrayList;
 import java.util.List;
 
+
+//Singleton
 public class TransactionLogger {
     private static TransactionLogger instance;
     private final List<Transaction> transactions;

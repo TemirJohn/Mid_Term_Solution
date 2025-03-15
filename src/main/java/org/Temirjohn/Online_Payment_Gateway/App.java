@@ -22,7 +22,7 @@ public class App {
             System.out.println("3. Exit");
             System.out.print("Select option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -45,7 +45,7 @@ public class App {
         System.out.println("2. PayPal");
         System.out.println("3. Crypto");
         int typeChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
 
         PaymentType type;
         switch (typeChoice) {

@@ -22,6 +22,7 @@ public class CoffeeShop {
             return;
         }
 
+        // Initialize toppings map
         Map<String, CoffeeDecorator> toppings = new HashMap<>();
         toppings.put("1", new MilkDecorator(coffee));
         toppings.put("2", new CaramelSyrupDecorator(coffee));
